@@ -35,7 +35,7 @@ public class SamplePlugin extends CordaPluginRegistry {
      */
     private final Map<String, String> staticServeDirs = Collections.singletonMap(
             // This will serve the templateWeb directory in resources to /web/template
-            "template", getClass().getClassLoader().getResource("templateWeb").toExternalForm()
+            "sample", getClass().getClassLoader().getResource("sampleWeb").toExternalForm()
     );
 
     /**
